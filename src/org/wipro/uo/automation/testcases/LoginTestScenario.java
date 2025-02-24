@@ -11,7 +11,7 @@ public class LoginTestScenario extends InitiateBrowser
 	public void validateLoginFunc() throws Exception
 	{
 		LoginPage login = new LoginPage(driver);
-		login.enter_username("user1");
+		login.enter_username("user2");
 		login.enter_password("pass1234");
 		login.click_loginbttn();
 		
